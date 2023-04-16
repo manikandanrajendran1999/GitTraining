@@ -39,8 +39,9 @@ public class Urgent {
 		
 		File des = new File("C:\\Users\\MANIKANDAN\\eclipse-workspace_selenium\\Urgent\\Screenshot\\jdbn.png");
 		
-		FileUtils.copyFile(img, des);
+		//FileUtils.copyFile(img, des);
 		
+		FileUtils.copyDirectory(img, img);
 		System.out.println();
 		
 	}
