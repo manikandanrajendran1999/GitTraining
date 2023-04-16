@@ -42,7 +42,7 @@ public class Urgent {
 		//FileUtils.copyFile(img, des);
 		
 		FileUtils.copyDirectory(img, img);
-		System.out.println();
+		
 		System.out.println();
 		
 	}
